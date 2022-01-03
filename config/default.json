@@ -1,0 +1,6 @@
+{
+	"NODE_ENV": "development",
+	"jwtPrivateKey": "MySecret",
+	"db": "mongodb://localhost/genres_test",
+	"VIDLY_PORT": 4000
+}

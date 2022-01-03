@@ -1,0 +1,38 @@
+{
+  "name": "study-node-vidly",
+  "version": "1.0.0",
+  "description": "Let's test the generateAuthToken() in the User.js we create a user with the function of -> mongoose.Types.ObjectId() then we supply this info to the fn() and se if it's verified by the function jwt.verify()",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --color --verbose --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvuzs3/study-node-vidly.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvuzs3/study-node-vidly/issues"
+  },
+  "homepage": "https://github.com/calvuzs3/study-node-vidly#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.5.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  }
+}
